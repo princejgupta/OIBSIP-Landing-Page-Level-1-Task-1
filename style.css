@@ -1,0 +1,121 @@
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #d9f104;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #08610b;
+    color: #dbd055;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    background-color:#08610b;
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #efbbd5;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  nav ul li a:hover{
+    background-color: rgb(241, 150, 229);
+    color: brown;
+    
+  }
+  /* Hero section */
+  .hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #a0e7f7;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #509854;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #038c1c;
+  }
+  
+  /* Features section */
+  .features {
+    background-color: #a0e5e2;
+    padding: 50px 0;
+  }
+  
+  .features h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .feature-box {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .feature-box img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .feature-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-box p {
+    font-size: 16px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #098f2f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
